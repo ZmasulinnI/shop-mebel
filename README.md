@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# Проект на Next.js с использованием shadcn/ui
 
-## Getting Started
+Этот проект представляет собой веб-приложение, разработанное с использованием фреймворка Next.js и компонентов библиотеки shadcn/ui. Ниже приведены инструкции по скачиванию проекта, установке зависимостей и запуску.
 
-First, run the development server:
+## Скачивание проекта
+
+1. Клонируйте репозиторий на ваш локальный компьютер:
+
+   ```bash
+   git clone https://github.com/ваш-username/ваш-репозиторий.git
+   ```
+
+2. Перейдите в директорию проекта:
+
+   ```bash
+   cd ваш-репозиторий
+   ```
+
+## Установка зависимостей
+
+Установите необходимые зависимости с помощью npm или Yarn:
+
+Если вы используете npm:
+
+```bash
+npm install
+```
+
+Если вы используете Yarn:
+
+```bash
+yarn install
+```
+
+## Запуск проекта
+
+### Запуск в режиме разработки
+
+Для запуска проекта в режиме разработки выполните следующую команду:
+
+Если вы используете npm:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Если вы используете Yarn:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+После этого проект будет доступен по адресу [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+### Сборка и запуск в production-режиме
 
-To learn more about Next.js, take a look at the following resources:
+1. Соберите проект:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   Если вы используете npm:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run build
+   ```
 
-## Deploy on Vercel
+   Если вы используете Yarn:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   yarn build
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Запустите собранный проект:
+
+   Если вы используете npm:
+
+   ```bash
+   npm start
+   ```
+
+   Если вы используете Yarn:
+
+   ```bash
+   yarn start
+   ```
+
+Теперь проект будет запущен в production-режиме.
