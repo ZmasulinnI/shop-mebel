@@ -8,13 +8,13 @@
 1. Клонируйте репозиторий на ваш локальный компьютер:
 
    ```bash
-   git clone https://github.com/ваш-username/ваш-репозиторий.git
+   git clone https://github.com/ZmasulinnI/shop-mebel.git
    ```
 
 2. Перейдите в директорию проекта:
 
    ```bash
-   cd ваш-репозиторий
+   cd shop-mebel
    ```
 
 ## Установка зависимостей
